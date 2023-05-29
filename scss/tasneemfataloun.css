@@ -1,0 +1,145 @@
+#tasneemfataloun .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000 url(../tasneemfataloun/BackgroundEINDELIJK.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+  z-index: -200;
+}
+#tasneemfataloun div.info {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 100vw;
+  padding: 10vh 10vw;
+  font-size: 6rem;
+  line-height: 5rem;
+  height: 100vh;
+  z-index: 0;
+  color: #fff;
+  mix-blend-mode: exclusion;
+}
+#tasneemfataloun div.info.info-diameter {
+  text-align: left;
+}
+#tasneemfataloun div.info.info-solar {
+  text-align: end;
+}
+#tasneemfataloun div.info.info-cursor {
+  z-index: 500;
+}
+#tasneemfataloun div.info.info-cursor img {
+  width: 50%;
+  height: 2rem;
+  transform: translateY(100vh);
+}
+#tasneemfataloun div.info small {
+  display: block;
+  font-size: 3rem;
+}
+#tasneemfataloun .box .shadows {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+  background-color: hsla(0, 0%, 0%, 0.3);
+}
+#tasneemfataloun .box .redPlanet {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  content: "";
+  background: url(../tasneemfataloun/redPlanet.png);
+  background-attachment: cov;
+  background-size: 400% 100%;
+}
+#tasneemfataloun .policeBox {
+  position: fixed;
+  width: 18vw;
+  height: 25vw;
+  left: 130vw;
+  top: 10vh;
+  z-index: 70;
+  opacity: 0;
+  background: url(../tasneemfataloun/policee.png) no-repeat center center/100% 100%;
+}
+#tasneemfataloun .policeBox .shadowsPolice {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+#tasneemfataloun .dalik1 {
+  position: fixed;
+  width: 19vw;
+  left: -15rem;
+  top: 50vh;
+  z-index: 70;
+  opacity: 0;
+  transform: rotate(-3deg) scaleX(-1);
+}
+#tasneemfataloun .dalik2 {
+  position: fixed;
+  width: 19vw;
+  right: -20rem;
+  top: 60vh;
+  z-index: 70;
+  opacity: 10;
+  transform-origin: center center;
+}
+#tasneemfataloun .venus {
+  width: 20vw;
+  height: 20vw;
+  transform: translate(-40vw, 30vh);
+  border-radius: 50%;
+  background: url(../tasneemfataloun/venus.webp) no-repeat center center/100% 100%;
+  z-index: -60;
+}
+#tasneemfataloun .mars {
+  width: 70vw;
+  height: 70vw;
+  transform: translate(100vw, 100vh);
+  border-radius: 50%;
+  background: url(../tasneemfataloun/mars.png) no-repeat center center/100% 100%;
+  z-index: 60;
+}
+#tasneemfataloun .cursor {
+  width: 3.5rem;
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  display: none;
+}
+#tasneemfataloun #satellites {
+  display: block;
+  position: fixed;
+  top: 30vh;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  animation: rotate 50s linear infinite;
+  transform-origin: center;
+  opacity: 0;
+}
+
+@keyframes rotate {
+  0% {
+    rotate: 0;
+  }
+  100% {
+    rotate: 180deg;
+  }
+}/*# sourceMappingURL=tasneemfataloun.css.map */
